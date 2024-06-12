@@ -16,6 +16,15 @@ loaded_model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=
 # Inicializar FastAPI
 app = FastAPI()
 
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
+
+# Endpoint de health check
+@app.get("/health")
+async def health_check():
+    return {"status": "ok"}
+
 @app.post("/predict/")
 async def predict(file: UploadFile = File(...)):
     try:
