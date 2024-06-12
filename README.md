@@ -1,12 +1,11 @@
 # Breast Cancer Detection API
 
-Esta es una API para la detección de cáncer de mama utilizando un modelo de aprendizaje profundo entrenado con Keras y TensorFlow. La API está implementada con FastAPI y se puede desplegar en Azure Web Services.
+Esta es una API para la detección de cáncer de mama utilizando un modelo de aprendizaje profundo entrenado con Keras y TensorFlow. La API está implementada con FastAPI. 
 
 ## Requisitos
 
 - Python 3.7+
-- Pipenv o virtualenv (opcional pero recomendado)
-- Azure CLI (para el despliegue en Azure Web Services)
+- Pipenv (opcional pero recomendado)
 
 ## Archivos
 
