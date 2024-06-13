@@ -1,6 +1,6 @@
 # Breast Cancer Detection API
 
-Esta API permite la detección de cáncer de mama mediante un modelo de aprendizaje profundo entrenado con Keras y TensorFlow. La API está implementada usando FastAPI.
+Esta API permite la detección de cáncer de mama en muestras histologicas mediante un modelo de aprendizaje profundo entrenado con Keras y TensorFlow. La API está implementada usando FastAPI.
 
 ## Requisitos
 
@@ -13,6 +13,8 @@ Esta API permite la detección de cáncer de mama mediante un modelo de aprendiz
 - `model.keras`: Pesos del modelo entrenado.
 - `main.py`: Script de FastAPI para servir la API.
 - `requirements.txt`: Archivo con las dependencias necesarias.
+
+El modelo fue entraenado previamente.  
 
 ## Instalación y Configuración
 
